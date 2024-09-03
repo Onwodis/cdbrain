@@ -1,0 +1,31 @@
+/* DockDemo.css */
+
+/* Style for the Dock component container */
+.dock-demo-container {
+    position: relative;
+    padding: 2rem;
+    background-color: #f4f4f4;
+    border-radius: 8px;
+}
+
+/* Styling for the items inside the Dock */
+.p-dock .p-dock-list .p-dock-item {
+    transition: transform 0.3s ease;
+}
+
+.p-dock .p-dock-list .p-dock-item:hover {
+    transform: scale(1.1); /* Add zoom effect on hover */
+}
+
+/* Style for the RadioButton component */
+.dock-radio-button {
+    margin: 1rem 0;
+}
+
+/* Add any additional custom styles here */
+.p-tabview-nav {
+  position: sticky;
+  top: 0;
+  z-index: 10;  /* Ensure the header is above other content */
+  background-color: white;  /* Set background to avoid transparency */
+}

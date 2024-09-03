@@ -1,0 +1,30 @@
+.mimage-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.mimage-container {
+  position: relative;
+  width: 300px; /* Adjust the width as needed */
+  height: 300px; /* Adjust the height as needed */
+  overflow: hidden;
+  border: 1px solid #ccc;
+}
+
+.mimage {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.mtext-overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 10px;
+  box-sizing: border-box;
+}

@@ -1,0 +1,951 @@
+/* Extra small devices (portrait phones, less than 576px) */
+.landingbg{
+    min-height: 50vh;
+  }
+
+@media (max-width: 769.98px) {
+    .logo {
+    width: 39vw;
+    /* height: 5vh; */
+    /* height: fit-content; */
+    align-items: center;
+    object-fit: contain;
+    /* padding-bottom: 20px; */
+    /* margin-top: 19px; */
+  }
+  .landingbg{
+    min-height: 85vh;
+  }
+ 
+  .content-wrapper {
+
+    padding: 1.875rem 0;
+    margin-top: 0;
+  }
+  
+  .ulinks {
+    color: white;
+    padding: 0 20px;
+  }
+  .dull {
+    background-color: #570a0a8e;
+  }
+  .cim{
+    width: 3vw;
+  }
+  .fixx{
+    padding-top: 0;
+    margin-top: 0;
+  }
+  .minh{
+    min-height: 25vh;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  
+
+  /* .boxsha {
+  
+    max-height: 14vh;
+  } */
+  .workon {
+    background-color: #f6bebed4;
+    text-align: start;
+    padding: 0 4px;
+    /* color: white; */
+    max-height: 100vh;
+    padding: 5%;
+    border-radius: 40px;
+    font-weight: 900;
+  }
+  .makewhite {
+    text-align: start;
+    color: white;
+    font-weight: 800;
+    /* padding-left: 20px; */
+  }
+  .carod {
+    /* object-fit: cover; */
+    height: 25vh;
+    width: 100%;
+  }
+
+  .mcos {
+    line-height: 5px;
+  }
+  .fface {
+    max-height: 30vh;
+  }
+  .fface img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .box_text {
+    max-width: 531px;
+    width: 100%;
+    padding: 0px 2px 2px 2px;
+  }
+
+  .box_text .titlepage {
+    padding-bottom: 0px;
+    text-align: right;
+  }
+  .box_text p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    /* text-align: right; */
+    color: #181716;
+  }
+  .box_text a {
+    font-size: 16px;
+    border: #f4b328 solid 1px;
+    background-color: #f4b328;
+    color: #fff;
+    padding: 9px 0px;
+    max-width: 171px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    /* float: right; */
+    margin-top: 0px;
+  }
+  .rope{
+    margin-top: 40vh;
+  }
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 420px) and (max-width:577) {
+  .rope{
+    margin-top: 10vh;
+  }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  .rodo{
+    line-height: 50px;
+    font-size: 30px;
+
+  }
+  .logo {
+    width: 20vw;
+    /* height: fit-content; */
+    align-items: center;
+    object-fit: contain;
+    /* margin-top: -20px; */
+  }
+  .important{
+    margin-top: 10vh;
+  }
+  .ulinks {
+    color: white;
+    padding: 0 20px;
+  }
+  .dull {
+    background-color: #570a0a8e;
+  }
+
+  .boxsha {
+    /* box-shadow: 2pc 2px 2px solid black; */
+    max-height: 15vh;
+    /* background-color: transparent; */
+
+  }
+  .workon {
+    background-color: #f6bebed4;
+    text-align: start;
+    padding: 0 4px;
+    /* color: white; */
+    max-height: 100vh;
+    padding: 5%;
+    border-radius: 40px;
+    font-weight: 900;
+    background-color: transparent;
+
+  }
+  .makewhite {
+    text-align: start;
+    color: white;
+    font-weight: 800;
+    /* padding-left: 20px; */
+  }
+  .carod {
+    /* object-fit: cover; */
+    height: 110vh;
+    width: 100%;
+  }
+  .rope {
+    
+    margin-top: 16vh;
+    
+  }
+  
+  .mcos {
+    line-height: 5px;
+  }
+  .fface {
+    max-height: 30vh;
+  }
+  .fface img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .box_text {
+    max-width: 531px;
+    width: 100%;
+    padding: 0px 2px 2px 2px;
+  }
+
+  .box_text .titlepage {
+    padding-bottom: 0px;
+    text-align: right;
+  }
+  .box_text p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    /* text-align: right; */
+    color: #181716;
+  }
+  .box_text a {
+    font-size: 16px;
+    border: #f4b328 solid 1px;
+    background-color: #f4b328;
+    color: #fff;
+    padding: 9px 0px;
+    max-width: 171px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    /* float: right; */
+    margin-top: -20px;
+  }
+  
+}
+/* .rodo{
+  line-height: 20px;
+} */
+@media (max-width: 768px) {
+  .logo {
+    width: 27vw;
+    /* height: fit-content; */
+    align-items: center;
+    object-fit: contain;
+    margin-top: -20vh;
+   
+  }
+  
+  .ulinks {
+    color: white;
+    padding: 0 20px;
+  }
+  .dull {
+    background-color: #570a0a8e;
+  }
+
+  .boxsha {
+    /* box-shadow: 2pc 2px 2px solid black; */
+    max-height: 24vh;
+  }
+  .workon {
+    /* background-color: #f6bebed4; */
+    text-align: start;
+    padding: 0 4px;
+    /* color: white; */
+    max-height: 100vh;
+    padding: 5%;
+    border-radius: 40px;
+    font-weight: 900;
+  }
+  .makewhite {
+    text-align: start;
+    color: white;
+    font-weight: 800;
+    /* padding-left: 20px; */
+  }
+  .carod {
+    /* object-fit: cover; */
+    height: 270vh;
+    width: 100%;
+  }
+  .rope {
+    /* border: 4px solid green; */
+    /* max-height: 100%; */
+    margin-top: 5vh;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+  .landingbg{
+    min-height: 110vh;
+  }
+}
+@media (max-width: 992px) {
+  .logo {
+    width: 27vw;
+    /* height: fit-content; */
+    align-items: center;
+    object-fit: contain;
+    margin-top: 0px;
+  }
+  .important{
+    margin-top: 10vh;
+  }
+  .ulinks {
+    color: white;
+    padding: 0 20px;
+  }
+  .dull {
+    background-color: #570a0a8e;
+  }
+
+  .boxsha {
+    /* box-shadow: 2pc 2px 2px solid black; */
+    max-height: 10vh;
+    
+  }
+  .workon {
+    background-color: transparent;
+    text-align: start;
+    padding: 0 4px;
+    /* color: white; */
+    max-height: 100vh;
+    padding: 5%;
+    border-radius: 40px;
+    font-weight: 900;
+  }
+  .makewhite {
+    text-align: start;
+    color: white;
+    font-weight: 800;
+    /* padding-left: 20px; */
+  }
+  .carod {
+    /* object-fit: cover; */
+    height: 90vh;
+    width: 100%;
+  }
+  .rope {
+    /* border: 4px solid green; */
+    /* max-height: 100%; */
+    margin-top: 35vh;
+  }
+  .mcos {
+    line-height: 5px;
+  }
+  .fface {
+    max-height: 30vh;
+  }
+  .fface img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .box_text {
+    max-width: 531px;
+    width: 100%;
+    padding: 0px 2px 2px 2px;
+  }
+
+  .box_text .titlepage {
+    padding-bottom: 0px;
+    text-align: right;
+  }
+  .box_text p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    /* text-align: right; */
+    color: #181716;
+  }
+  .box_text a {
+    font-size: 16px;
+    border: #f4b328 solid 1px;
+    background-color: #f4b328;
+    color: #fff;
+    padding: 9px 0px;
+    max-width: 171px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    /* float: right; */
+    margin-top: 0px;
+  }
+  
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (max-width: 1200px) {
+  
+}
+@media (min-width: 1200px) {
+}
+
+/* Extra extra large devices (very large desktops, 1400px and up) */
+@media (min-width: 1400px) {
+}
+@media (min-width: 308px) and (max-width: 422px) {
+  .workon {
+    
+    background-color: #f6bebed4;
+
+  }
+  .rope {
+    
+    margin-top: 5vh;
+    
+  }
+  .logo{
+    width: 30vw;
+    padding: 0;
+    margin-top: -5vh;
+  }
+}
+.important{
+    margin-top: 0vh;
+  }
+.logo{
+  margin:auto 0;
+}
+@media (min-width: 678px) and (max-width: 992px) {
+  .rodo{
+    line-height: 30px;
+    font-size: 30px;
+
+  }
+  .logo {
+    width: 20vw;
+    /* height: fit-content; */
+    align-items: center;
+    object-fit: contain;
+    margin-top: -20px;
+  }
+  
+  
+  .important{
+    margin-top: 10vh;
+  }
+  .ulinks {
+    color: white;
+    padding: 0 20px;
+  }
+  .dull {
+    background-color: #570a0a8e;
+  }
+
+  .boxsha {
+    /* box-shadow: 2pc 2px 2px solid black; */
+    max-height: 15vh;
+    /* background-color: transparent; */
+
+  }
+  .workon {
+    background-color: #f6bebed4;
+    text-align: start;
+    padding: 0 4px;
+    /* color: white; */
+    max-height: 100vh;
+    padding: 5%;
+    border-radius: 40px;
+    font-weight: 900;
+    background-color: transparent;
+
+  }
+  .makewhite {
+    text-align: start;
+    color: white;
+    font-weight: 800;
+    /* padding-left: 20px; */
+  }
+  .carod {
+    /* object-fit: cover; */
+    height: 120vh;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  
+  .rope {
+    
+    margin-top: 31vh;
+    
+  }
+  
+  
+  .mcos {
+    line-height: 6px;
+  }
+  .fface {
+    max-height: 30vh;
+  }
+  .fface img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .box_text {
+    max-width: 531px;
+    width: 100%;
+    padding: 0px 2px 2px 2px;
+  }
+
+  .box_text .titlepage {
+    padding-bottom: 0px;
+    text-align: right;
+  }
+  .box_text p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    /* text-align: right; */
+    color: #181716;
+  }
+  .box_text a {
+    font-size: 16px;
+    border: #f4b328 solid 1px;
+    background-color: #f4b328;
+    color: #fff;
+    padding: 9px 0px;
+    max-width: 171px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    /* float: right; */
+    margin-top: -20px;
+  }
+  
+}
+@media (min-width: 500px) and (max-width: 666px) {
+  .rodo{
+    line-height: 50px;
+    font-size: 30px;
+
+  }
+  .logo {
+    width: 20vw;
+    /* height: fit-content; */
+    align-items: center;
+    object-fit: contain;
+    /* margin-top: -20px; */
+  }
+  .important{
+    margin-top: 10vh;
+  }
+  .ulinks {
+    color: white;
+    padding: 0 20px;
+  }
+  .dull {
+    background-color: #570a0a8e;
+  }
+
+  .boxsha {
+    /* box-shadow: 2pc 2px 2px solid black; */
+    max-height: 15vh;
+    /* background-color: transparent; */
+
+  }
+  .workon {
+    background-color: #f6bebed4;
+    text-align: start;
+    padding: 0 4px;
+    /* color: white; */
+    max-height: 100vh;
+    padding: 5%;
+    border-radius: 40px;
+    font-weight: 900;
+    background-color: transparent;
+
+  }
+  .makewhite {
+    text-align: start;
+    color: white;
+    font-weight: 800;
+    /* padding-left: 20px; */
+  }
+  .carod {
+    /* object-fit: cover; */
+    height: 110vh;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  
+  .rope {
+    
+    margin-top: 5vh;
+    
+  }
+  
+  
+  .mcos {
+    line-height: 5px;
+  }
+  .fface {
+    max-height: 30vh;
+  }
+  .fface img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .box_text {
+    max-width: 531px;
+    width: 100%;
+    padding: 0px 2px 2px 2px;
+  }
+
+  .box_text .titlepage {
+    padding-bottom: 0px;
+    text-align: right;
+  }
+  .box_text p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    /* text-align: right; */
+    color: #181716;
+  }
+  .box_text a {
+    font-size: 16px;
+    border: #f4b328 solid 1px;
+    background-color: #f4b328;
+    color: #fff;
+    padding: 9px 0px;
+    max-width: 171px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    /* float: right; */
+    margin-top: -20px;
+  }
+  
+}
+@media (min-width: 1020px) and (max-width: 1166px) {
+  .rodo{
+    line-height: 50px;
+    font-size: 30px;
+
+  }
+  .logo {
+    width: 20vw;
+    /* height: fit-content; */
+    align-items: center;
+    object-fit: contain;
+    margin-top: 8px;
+  }
+  .important{
+    margin-top: 10vh;
+  }
+  .ulinks {
+    color: white;
+    padding: 0 20px;
+  }
+  .dull {
+    background-color: #570a0a8e;
+  }
+
+  .boxsha {
+    /* box-shadow: 2pc 2px 2px solid black; */
+    max-height: 15vh;
+    /* background-color: transparent; */
+
+  }
+  .workon {
+    background-color: #f6bebed4;
+    text-align: start;
+    padding: 0 4px;
+    /* color: white; */
+    max-height: 100vh;
+    padding: 5%;
+    border-radius: 40px;
+    font-weight: 900;
+    background-color: transparent;
+
+  }
+  .makewhite {
+    text-align: start;
+    color: white;
+    font-weight: 800;
+    /* padding-left: 20px; */
+  }
+  .carod {
+    /* object-fit: cover; */
+    height: 90vh;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .nvsc{
+    /* margin-top: 350px; */
+
+  }
+  .rope {
+    
+    margin-top: 12vh;
+    
+  }
+  
+  
+  .mcos {
+    line-height: 5px;
+  }
+  .fface {
+    max-height: 30vh;
+  }
+  .fface img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .box_text {
+    max-width: 531px;
+    width: 100%;
+    padding: 0px 2px 2px 2px;
+  }
+
+  .box_text .titlepage {
+    padding-bottom: 0px;
+    text-align: right;
+  }
+  .box_text p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    /* text-align: right; */
+    color: #181716;
+  }
+  .box_text a {
+    font-size: 16px;
+    border: #f4b328 solid 1px;
+    background-color: #f4b328;
+    color: #fff;
+    padding: 9px 0px;
+    max-width: 171px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    /* float: right; */
+    margin-top: -20px;
+  }
+  
+}
+@media (min-width: 1166px) and (max-width: 1500px) {
+  .rodo{
+    line-height: 50px;
+    font-size: 30px;
+
+  }
+  .logo {
+    width: 18vw;
+    /* height: fit-content; */
+    align-items: center;
+    object-fit: contain;
+    /* margin-top: -20px; */
+  }
+  .important{
+    margin-top: 10vh;
+  }
+  .ulinks {
+    color: white;
+    padding: 0 20px;
+  }
+  .dull {
+    background-color: #570a0a8e;
+  }
+
+  .boxsha {
+    /* box-shadow: 2pc 2px 2px solid black; */
+    max-height: 15vh;
+    /* background-color: transparent; */
+
+  }
+  .workon {
+    background-color: #f6bebed4;
+    text-align: start;
+    padding: 0 4px;
+    /* color: white; */
+    max-height: 100vh;
+    padding: 5%;
+    border-radius: 40px;
+    font-weight: 900;
+    background-color: transparent;
+
+  }
+  .makewhite {
+    text-align: start;
+    color: white;
+    font-weight: 800;
+    /* padding-left: 20px; */
+  }
+  .carod {
+    /* object-fit: cover; */
+    height: 90vh;
+    width: 100%;
+    margin-bottom: 0;
+  }
+  .nvsc{
+    /* margin-top: 350px; */
+
+  }
+  .rope {
+    
+    margin-top: 22vh;
+    
+  }
+  
+  
+  .mcos {
+    line-height: 5px;
+  }
+  .fface {
+    max-height: 30vh;
+  }
+  .fface img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .box_text {
+    max-width: 531px;
+    width: 100%;
+    padding: 0px 2px 2px 2px;
+  }
+
+  .box_text .titlepage {
+    padding-bottom: 0px;
+    text-align: right;
+  }
+  .box_text p {
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 400;
+    /* text-align: right; */
+    color: #181716;
+  }
+  .box_text a {
+    font-size: 16px;
+    border: #f4b328 solid 1px;
+    background-color: #f4b328;
+    color: #fff;
+    padding: 9px 0px;
+    max-width: 171px;
+    width: 100%;
+    display: inline-block;
+    text-align: center;
+    text-transform: uppercase;
+    border-radius: 30px;
+    /* float: right; */
+    margin-top: -20px;
+  }
+  
+}
+
+@media (min-width: 398px) and (max-width: 430px) {
+  .workon {
+    
+    background-color: #f6bebed4;
+
+  }
+  .rope {
+    
+    margin-top: 10vh;
+    
+  }
+  .content-wrapper {
+  background: #e329291d;
+  padding: 0;
+  width: 100%;
+  -webkit-flex-grow: 1;
+  flex-grow: 1; }
+  
+
+
+}
+
+
+
+@media (max-width: 768px) {
+  .responsive-table {
+    display: block;
+  }
+
+  .responsive-table thead {
+    display: none;
+  }
+
+  .responsive-table tbody,
+  .responsive-table tr,
+  .responsive-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .responsive-table tr {
+    margin-bottom: 15px;
+  }
+
+  .responsive-table td {
+    text-align: right;
+    padding-left: 50%;
+    position: relative;
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 50%;
+    padding-left: 15px;
+    font-weight: bold;
+    text-align: left;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .responsive-table {
+    display: block;
+    width: 100%;
+  }
+
+  .responsive-table thead {
+    display: none;
+  }
+
+  .responsive-table tbody,
+  .responsive-table tr,
+  .responsive-table td {
+    display: block;
+    width: 100%;
+  }
+
+  .responsive-table tr {
+    margin-bottom: 15px;
+  }
+
+  .responsive-table td {
+    text-align: left;
+    padding-left: 50%;
+    position: relative;
+    padding-top: 15px;
+    padding-bottom: 15px;
+  }
+
+  .responsive-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 15px;
+    width: calc(50% - 30px);
+    padding-right: 10px;
+    white-space: nowrap;
+    font-weight: bold;
+  }
+}

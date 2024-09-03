@@ -1,0 +1,63 @@
+/* Modal overlay styling */
+.custom-overlay {
+  background-color: rgba(0, 0, 0, 0.75);
+  opacity: 0;
+  transition: opacity 600ms ease-in-out;
+}
+
+.custom-overlay.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.custom-overlay.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+/* Modal content styling */
+.custom-modal {
+  position: absolute;
+  top: 40%;
+  left: 30%;
+  right: auto;
+  bottom: auto;
+  margin-right: -50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  outline: none;
+  width: 40%; /* Adjust the width as needed */
+  max-width: 300px; /* Adjust the maximum width as needed */
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  opacity: 0;
+  transition: opacity 300ms ease-in-out;
+}
+
+.custom-modal.ReactModal__Content--after-open {
+  opacity: 1;
+}
+
+.custom-modal.ReactModal__Content--before-close {
+  opacity: 0;
+}
+
+/* Modal image styling */
+.modal-image {
+  width: 30%;
+  height: 20vh;
+  display: block;
+  margin-bottom: 20px;
+  z-index: 10;
+}
+
+/* Close button styling */
+.close-button {
+  background: #ff5e57;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block;
+  margin: 0 auto;
+}
